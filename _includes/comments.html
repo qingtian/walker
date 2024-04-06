@@ -1,0 +1,14 @@
+<!-- valine 评论-->
+{% if site.valine %}
+<div id="vcomments-container"></div>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#vcomments-container',
+        appId: '{{ site.valine_appId }}',
+        appKey: '{{ site.valine_appKey }}',
+        placeholder: '{{ site.valine_placeHolder }}',
+        visitor: true
+    });
+</script>
+{% endif %}

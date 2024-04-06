@@ -1,0 +1,21 @@
+<center>
+    <p style="font-size:0.5em;">Powered by <a href="http://jekyllrb.com">Jekyll</a> and Theme by <a
+            href="http://github.com/mzlogin/jekyll-theme-solid">solid</a></p>
+</center>
+
+<!-- Google Analytics -->
+{% if site.ga_track_id %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_track_id }}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.ga_track_id }}');
+</script>
+{% endif %}
+
+</body>
+
+</html>

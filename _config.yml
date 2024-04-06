@@ -1,0 +1,41 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl: 
+url: https://walker.qingtian16265.com
+date_format: "ordinal"
+title: 晴天的徒步足迹
+author: qingtian16265
+
+# ---------------- #
+#   RSS / Email    #
+# ---------------- #
+subscribe_rss: /feed.xml
+email:
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+paginate: 9
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ga
+ga_track_id: 'G-KF0C0C9M2B'
+
+# Valine
+valine: true
+valine_appId: PI3YICDNqml1zPxEi2ser9mB-gzGzoHsz
+valine_appKey: G17k3NTGBQ31zZpSIiJmkd41
+valine_placeHolder: 快来发表一下你的看法吧！

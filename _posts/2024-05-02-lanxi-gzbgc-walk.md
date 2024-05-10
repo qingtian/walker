@@ -2,7 +2,7 @@
 layout:     post
 title:      "诸葛八卦村之行"
 subtitle:   ""
-date:       2024-05-01
+date:       2024-05-02
 author:     "qingtian"
 catalog:    true
 valine-path: '/2024/05/02/lanxi-gzbgc-walk/'
